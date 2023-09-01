@@ -1,0 +1,21 @@
+#Robots.txt for http://www.ina-india.com
+
+Disallow: /cgi-bin/    # keep robots out of the executable tree
+Disallow: /stats/  # stats directory
+
+User-agent: *
+Disallow: /www.ina-india.com/pop24.htm
+Disallow: /www.ina-india.com/pop1.htm
+Disallow: /www.ina-india.com/pop33.htm
+Disallow: /www.ina-india.com/pop4.htm
+Disallow: /www.ina-india.com/pop39.htm
+Disallow: /www.ina-india.com/pop36.htm
+Disallow: /www.ina-india.com/pop21.htm
+Disallow: /www.ina-india.com/pop31.htm
+Disallow: /www.ina-india.com/media5.htm
+Disallow: /www.ina-india.com/media8.htm
+Disallow: /www.ina-india.com/pop27.htm
+Disallow: /www.ina-india.com/pop8.htm
+
+User-agent: *
+allow: http://www.ina-india.com/sitemap.xml
